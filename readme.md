@@ -4,7 +4,10 @@ Corrective Retrieval-augmented generation is a technique in machine learning tha
 
 You can find the detail explanation of architecture [here.](./assets/CRAG.pdf)
 
+# Overview of repository
+Here, A chatbot was created, incorporating a Retrieval-Augmented Generation (RAG) System that combines correction mechanisms tailored for three specific domains: material, microbe, and biofilms. For each of these domains, 20 papers were sourced from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) as of now in demonstration, later on we can source more at ease. The use of Large Language Models (LLMs) was employed without any restrictions, enabling the leveraging of advanced natural language processing capabilities to interpret and respond to user queries effectively.
 
+The front-end of the system was designed in a chatbot style to facilitate conversation, providing users with an interactive and engaging interface. To support this, preferred frameworks such as Elasticsearch is used for efficient data retrieval, and React is used for building a dynamic user interface were utilized. This comprehensive approach ensured that the chatbot was not only functional but also user-friendly and scalable, capable of handling queries.
 
 ### Requirements
 
